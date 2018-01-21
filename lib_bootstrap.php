@@ -8,5 +8,5 @@ class lib_bootstrap extends \LIB\lib_jscss{
     public static function css_path(){
         return new \SYSTEM\PLIB('bootstrap/lib/css/bootstrap.min.css');}
     public static function version(){
-        return '3.3.4';}
+        return '4.0.0';}
 }
