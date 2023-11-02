@@ -11,7 +11,7 @@
  */
 namespace LIB;
 
-class docu_bootstrap implements \SYSTEM\DOCU\docu_package {
+class docu_bootstrap3 implements \SYSTEM\DOCU\docu_package {
     public static function get_config(){
         return array(   'id' => 'bootstrap',
                         'inpath' => new \SYSTEM\PLIB('bootstrap/'),
